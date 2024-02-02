@@ -1,0 +1,12 @@
+/* Honk */
+@import url('https://fonts.googleapis.com/css2?family=Honk&display=swap');
+/* Single Day */
+@import url('https://fonts.googleapis.com/css2?family=Single+Day&display=swap');
+
+body {
+    font-family: 'Single Day', sans-serif;
+}
+
+body h1, body h2{
+    font-family: 'Honk', sans-serif;
+}

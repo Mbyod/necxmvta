@@ -1,0 +1,149 @@
+.container {
+    max-width: 750px;
+    margin: auto;
+    
+}
+
+body {
+    color: #000;
+    background-color: #ddd;
+    
+}
+
+
+.card{
+    border: 2px solid #666666;
+    margin: bottom;
+    border-radius: 10px;
+    padding: 10px 20px;
+    box-shadow: 10px 4px 14px rgba(0, 0, 0, 0.25);
+    
+}
+.avatar {
+    width: 300px;
+    border-radius: 28px;
+    box-shadow: 10px 4px 14px rgba(0, 0, 0, 0.25);
+
+}
+
+.info {
+    margin-bottom: 20px ;
+    display: flex;
+    
+}
+
+.info_text {
+    font-size: 20px;
+    margin: auto;
+    
+}
+
+a {
+    color: rgb(15, 98, 175);
+    text-decoration: none;
+}
+
+a:visited {
+    color: purple;
+}
+
+
+a.active {
+    color: firebrick ;
+}
+
+.btn{
+    border-radius: 5px;
+    background: #666666;
+    border: none ;
+    transition: all .2s;
+}
+
+.btn:hover{
+    font-size: 14px;
+    opacity: .9;
+}
+
+.table {
+    text-align: center;
+    margin: auto;
+}
+
+.table td{
+    padding: 15px ;
+}
+
+
+.table td:hover{
+    background: plum;
+    border-radius: 15px;
+}
+
+ #new_release td:nth-child(even){
+    color: tomato;
+}
+
+#new_release td:nth-child(odd){
+    color: blueviolet;
+}
+
+.info ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.info ul li {
+    margin-right: 10px;
+}
+
+.info ul li:hover{
+    background: greenyellow;
+    border-radius: 15px;
+}
+
+.contact h2 {
+    text-align: center;
+}
+
+.form_group label{
+    /* по умолчанию лейбл - inline елемент */
+    display: block;
+    
+}
+
+.form_row{
+    display: flex;
+}
+
+.form_row .form_group{
+    /* display: inline-block; */
+    margin-right: 10px;
+    width: 49%;
+    /* расчитываем width для того, чтобы уместились инпуты */
+    /* width: calc(50 - 10px) ; */
+}
+
+.form_row .form_group:last-child{
+    margin-right: 0;
+}
+
+.form_group input,
+.form_group textarea{
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #666666;
+    color: black;
+    padding: 15px 0 10px;
+    /* линия вокруг инпутов */
+    font-family: inherit;
+    outline: none;
+}
+
+.contact .btn {
+    float: inline-end;
+}
+
