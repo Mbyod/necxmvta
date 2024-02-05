@@ -147,3 +147,24 @@ a.active {
     float: inline-end;
 }
 
+@media (max-width: 650px){
+    .info, .info ul {
+        display: block;
+        text-align: center;
+    }
+    
+}
+
+@media (max-width: 650px){
+    .form_row{
+        display: block;
+    }
+}
+
+@media (max-width: 650px){
+    .form_row .form_group{
+        width: 100%;
+        margin-right: 0%;
+        margin-bottom: 10px;
+    }
+}
